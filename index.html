@@ -313,12 +313,36 @@
     </section>
     <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
     <script>
+      // Ko-fi widget
       kofiWidgetOverlay.draw("leung018", {
         type: "floating-chat",
         "floating-chat.donateButton.text": "Support me",
         "floating-chat.donateButton.background-color": "#ff9900",
         "floating-chat.donateButton.text-color": "#fff",
       });
+
+      // Umami Scroll Depth Tracking
+      (function () {
+        const tracked = {};
+        function trackSection(id, eventName) {
+          const el = document.getElementById(id);
+          if (!el || tracked[id]) return;
+          const rect = el.getBoundingClientRect();
+          if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+            if (window.umami) umami.track(eventName);
+            tracked[id] = true;
+          }
+        }
+
+        function trackSections() {
+          trackSection("features", "Scroll to Features");
+          trackSection("tutorial", "Scroll to Tutorial");
+        }
+
+        window.addEventListener("scroll", trackSections);
+        // Initial check in case already in view
+        window.addEventListener("DOMContentLoaded", trackSections);
+      })();
     </script>
   </body>
 </html>
