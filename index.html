@@ -351,10 +351,17 @@
             >Credits</a
           >
         </p>
+        <p class="has-text-grey-light">
+          &copy; <span id="current-year"></span> Zero In. All rights reserved.
+        </p>
       </div>
     </footer>
     <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
     <script>
+      // Current Year
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+
       // Ko-fi widget
       kofiWidgetOverlay.draw("leung018", {
         type: "floating-chat",
