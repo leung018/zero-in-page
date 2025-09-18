@@ -10,7 +10,7 @@ sudo inkscape --export-filename=output.png --export-width=1200 --export-height=6
 
 ## Credits
 
-This project makes use of the following third-party resources:
+The Zero In website utilizes the following third-party resources:
 
 1. Bulma
 
@@ -34,3 +34,5 @@ This project makes use of the following third-party resources:
    - Website: https://github.com/umami-software/umami
    - License: MIT License
    - License Text: https://github.com/umami-software/umami?tab=MIT-1-ov-file
+
+For third-party software used in the browser extension, please see [here](https://github.com/leung018/zero-in/blob/main/THIRD_PARTY_LICENSES.md).
