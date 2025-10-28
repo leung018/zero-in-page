@@ -10,7 +10,7 @@ sudo inkscape --export-filename=output.png --export-width=1200 --export-height=6
 
 ## Credits
 
-The Zero In website utilizes the following third-party resources:
+The ZeroIn website utilizes the following third-party resources:
 
 1. Bulma
 
