@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.zeroin.mobile",
+      "sha256_cert_fingerprints": [
+        "97:BF:1A:5A:1E:4C:C1:81:01:D1:B3:E4:43:ED:83:6A:8E:3E:CF:B0:ED:62:A7:70:6E:9D:50:29:E7:88:54:E8"
+      ]
+    }
+  }
+]
