@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "YCDM23LPV6.dev.zeroin.mobile",
+        "paths": [
+          "/auth/callback"
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "YCDM23LPV6.dev.zeroin.mobile"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "YCDM23LPV6.dev.zeroin.mobile"
+    ]
+  }
+}
